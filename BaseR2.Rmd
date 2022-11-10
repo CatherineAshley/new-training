@@ -1,0 +1,54 @@
+---
+title: "Practice"
+author: "Catherine Ashley Jonhera"
+date: "2022-11-09"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+##Hypothenuse calculation
+```{r}
+hypotenuse <- function(side1,side2){
+ hypo <- sqrt(side1**2 + side2**2)
+ return(hypo)
+}
+```
+```{r}
+hypotenuse(9,8)
+```
+##making a numeric vector
+
+}
+``{r}
+```{r}
+x <-(1:10)
+square <- function(y){
+ sq=y^2
+ return(sq)
+}
+
+
+```
+
+```
+```{r}
+square(4)
+```
+```{r}
+lapply(x, square)
+```
+```{r}
+sapply(x, square)
+```
+
+##listing numeric and logical vectors
+```{r}
+new_list<-list(x, my_day2matrix (2), seq(from-10, to=18, by=2), c(T,T,F,T,F))
+lapply(new_list.sum)
+sapply(new_list.sum)
+```
+
